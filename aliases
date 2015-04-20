@@ -1,0 +1,8 @@
+#Aliases
+
+
+alias ll="ls -lah --color=auto"
+#same command for mac os
+if [[ $OSTYPE =~ 'darwin' ]]; then
+    alias ll="ls -lahG"
+fi
