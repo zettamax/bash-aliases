@@ -1,7 +1,11 @@
 #Aliases
-
-
 alias ll="ls -lah --color=auto"
+
+#liquidprompt settings
+if [ -n "$LP_OS" ]; then
+	LP_ENABLE_TIME=1
+	LP_COLOR_TIME=$NO_COL
+fi
 
 #git aliases
 git config --global alias.st "status"
