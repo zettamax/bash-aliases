@@ -1,5 +1,5 @@
 #Aliases
-alias ll="ls -lah --color=auto"
+alias ll="ls -lah -G"
 
 #liquidprompt settings
 if [ -n "$LP_OS" ]; then
